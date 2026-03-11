@@ -99,7 +99,7 @@ export default function App() {
       country: 'ECUADOR', 
       name: 'Andrea Aguilera', 
       flag: '🇪🇨', 
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMkEHyd7WAcRYPLolZ3zp_QnkSBmTKrgF9Fg&s',
+      image: 'https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/480945431_1072220648268709_7872786444448487174_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=dd6889&_nc_ohc=AT8WNOeK-QYQ7kNvwFu-MAt&_nc_oc=AdmIpejrcpsVz3p7skraNs9dtPlgVTDS921VJA9hhnSG5Gd-tooNpUzV4o6M9crybJ0&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=2uB9id7Y6iUGDxe82U4oCA&_nc_ss=8&oh=00_AfxpzoRnUzlpDbDIFqmPP43p9Qmbhtu1nJNFq9xYBP8cZg&oe=69B6D1CB',
       gradient: 'from-[#ED1C24]/90 via-[#0038A8]/60 to-[#FFCC00]/30'
     },
     { 
@@ -117,6 +117,14 @@ export default function App() {
       flag: '🇦🇷', 
       image: 'https://img.lagaceta.com.ar/fotos/notas/2025/11/20/600x400_aldana-masset-candidata-argentina-miss-universo-2025-1113480-113211.webp',
       gradient: 'from-[#74ACDF]/80 via-white/40 to-transparent'
+    },
+    { 
+      id: '10', 
+      country: 'PUERTO RICO', 
+      name: 'Madison Anderson', 
+      flag: '🇵🇷', 
+      image: 'https://pbs.twimg.com/profile_images/1831074397366394880/Lk-t2v72_400x400.jpg',
+      gradient: 'from-[#ED1C24]/80 via-[#0038A8]/40 to-transparent'
     },
   ].sort((a, b) => a.country.localeCompare(b.country));
 
