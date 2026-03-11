@@ -67,7 +67,7 @@ export default function App() {
       country: 'PARAGUAY', 
       name: 'Sharon Caponara', 
       flag: '🇵🇾', 
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf52U14lAxdzPKaLDJn-DcXIpOhHBxAg9gLg&s',
+      image: 'https://scontent-hou1-1.xx.fbcdn.net/v/t51.75761-15/470916528_18482153464061601_920934663002749134_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=13d280&_nc_ohc=v1fQeJvzMWUQ7kNvwHlWG-5&_nc_oc=Adm2jgQK6tq595Cc3mSEk5_uKAoY-LMiRpOLMq1EvYm20YXDwVgKuAynfx0qhs6vB5g&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=_P6Iuu8yFdmbVas62uvmcg&_nc_ss=8&oh=00_Afw8ep8fovvn6W4n-Bb0e8e6znL5Ol9mvOx7AUe5o9HceA&oe=69B6A7BF',
       gradient: 'from-[#D52B1E]/80 via-[#0038A8]/40 to-transparent'
     },
     { 
@@ -75,7 +75,7 @@ export default function App() {
       country: 'THAILAND', 
       name: 'Opal Suchata', 
       flag: '🇹🇭', 
-      image: 'https://cdn.tatlerasia.com/tatlerasia/i/2025/08/27150156-opal-suchata-s3-244-v1_cover_1217x1600.jpg',
+      image: 'https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/497708233_122131775348417835_6942953181716767725_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=53a332&_nc_ohc=L8fSRW0dI5EQ7kNvwHNTjke&_nc_oc=AdlXBUHNdehkJgMjDzILEmcmw8BkROf1rGw3hnoPf2LgL8V4NrHeqAL2qgWY8CMzWgY&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=VQa7H8rBt3zDjKq8ubTegw&_nc_ss=8&oh=00_Afx1in75CE0WjEknAJn38RXjOLpdYg-3-zecnz7l3QVboQ&oe=69B6C532',
       gradient: 'from-[#ED1C24]/80 via-[#241D5E]/40 to-transparent'
     },
     { 
@@ -83,7 +83,7 @@ export default function App() {
       country: 'UNITED KINGDOM', 
       name: 'Amy Viranya Berry', 
       flag: '🇬🇧', 
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5kQYvggouXro8Y_1HhfOLldIq9ujMlTuV5w&s',
+      image: 'https://scontent-hou1-1.xx.fbcdn.net/v/t51.82787-15/565093725_17947293651045943_5220260970474638367_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=13d280&_nc_ohc=4Yt_Jxm5FygQ7kNvwGyExiC&_nc_oc=Adm54xqG7XAg9b_F32deyfArJCkKkOjDkyJIZE9ipQYf6MRR_WrQuGGM20OyocqZ9Yc&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=YVbkLE5OBSg4XGtlq0SWBg&_nc_ss=8&oh=00_Afy8ue7ElcrsiXwwOLWPrMQiLwrMFrO_Ctd3ySCXpx--mQ&oe=69B6C6F9',
       gradient: 'from-[#C8102E]/80 via-[#012169]/40 to-transparent'
     },
     { 
