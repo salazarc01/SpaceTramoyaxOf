@@ -248,7 +248,16 @@ export default function App() {
                         Miss Supranational
                       </p>
                       <h1 className="text-5xl md:text-8xl lg:text-9xl font-black tracking-tighter leading-[0.85] uppercase italic">
-                        {candidates[currentHeroIndex].country} <br />
+                        <motion.span
+                          key={`country-${candidates[currentHeroIndex].id}`}
+                          initial={{ backgroundPosition: '100% 0' }}
+                          animate={{ backgroundPosition: '-100% 0' }}
+                          transition={{ duration: 2, ease: "easeInOut" }}
+                          className="bg-clip-text text-transparent bg-gradient-to-r from-white via-black to-white bg-[length:200%_100%] inline-block"
+                        >
+                          {candidates[currentHeroIndex].country}
+                        </motion.span>
+                        <br />
                         <span className="text-3xl md:text-5xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/40 not-italic block mt-2 md:mt-4">
                           {candidates[currentHeroIndex].name}
                         </span>
