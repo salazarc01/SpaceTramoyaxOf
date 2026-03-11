@@ -250,7 +250,7 @@ export default function App() {
                     <div className="flex items-center gap-4">
                       <div className="h-[1px] w-12 bg-white/30" />
                       <p className="text-white/60 text-xs md:text-sm font-medium tracking-widest uppercase">
-                        ROAD TO Miss Supranational 2026
+                        ROAD TO 1st Miss Supranational 2026
                       </p>
                       <div className="h-[1px] w-12 bg-white/30" />
                     </div>
