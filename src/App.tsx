@@ -110,6 +110,14 @@ export default function App() {
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI5z8ninFfGfRHfuLslip0zmi1S23Ik71-mA&s',
       gradient: 'from-[#ED1C24]/90 via-[#0038A8]/60 to-[#FFCC00]/30'
     },
+    { 
+      id: '9', 
+      country: 'ARGENTINA', 
+      name: 'Aldana Masset', 
+      flag: '🇦🇷', 
+      image: 'https://img.lagaceta.com.ar/fotos/notas/2025/11/20/600x400_aldana-masset-candidata-argentina-miss-universo-2025-1113480-113211.webp',
+      gradient: 'from-[#74ACDF]/80 via-white/40 to-transparent'
+    },
   ].sort((a, b) => a.country.localeCompare(b.country));
 
   useEffect(() => {
