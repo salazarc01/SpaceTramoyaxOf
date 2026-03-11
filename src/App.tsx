@@ -86,6 +86,22 @@ export default function App() {
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5kQYvggouXro8Y_1HhfOLldIq9ujMlTuV5w&s',
       gradient: 'from-[#C8102E]/80 via-[#012169]/40 to-transparent'
     },
+    { 
+      id: '6', 
+      country: 'GUADELOUPE', 
+      name: 'Ophély Mézino', 
+      flag: '🇬🇵', 
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPHyQy2KIskj9I2ry3A2dmJFHYkSvKzGI2KQ&s',
+      gradient: 'from-[#002395]/80 via-[#FFCD00]/40 to-transparent'
+    },
+    { 
+      id: '7', 
+      country: 'ECUADOR', 
+      name: 'Andrea Aguilera', 
+      flag: '🇪🇨', 
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMkEHyd7WAcRYPLolZ3zp_QnkSBmTKrgF9Fg&s',
+      gradient: 'from-[#FFDD00]/80 via-[#034EA2]/40 to-transparent'
+    },
   ].sort((a, b) => a.country.localeCompare(b.country));
 
   useEffect(() => {
