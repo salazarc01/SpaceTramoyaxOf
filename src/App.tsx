@@ -126,6 +126,14 @@ export default function App() {
       image: 'https://pbs.twimg.com/profile_images/1831074397366394880/Lk-t2v72_400x400.jpg',
       gradient: 'from-[#ED1C24]/80 via-[#0038A8]/40 to-transparent'
     },
+    { 
+      id: '11', 
+      country: "COTE D'IVOIRE", 
+      name: 'Olivia Yace', 
+      flag: '🇨🇮', 
+      image: 'https://entertainment.inquirer.net/files/2025/11/Olivia-Yace-resigns-continental-title-11242025-1200x799.png',
+      gradient: 'from-[#FF8200]/80 via-white/40 to-[#009A44]/40'
+    },
   ].sort((a, b) => a.country.localeCompare(b.country));
 
   useEffect(() => {
