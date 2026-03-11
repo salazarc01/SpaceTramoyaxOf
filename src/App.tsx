@@ -335,9 +335,15 @@ export default function App() {
                       <p className="text-gray-300 text-xs md:text-base mb-4 line-clamp-2 md:line-clamp-none">
                         Toda la cobertura exclusiva del certamen más aspiracional. Candidatas, predicciones y resultados en tiempo real.
                       </p>
-                      <span className="inline-flex items-center gap-2 text-apple-accent font-bold text-xs">
-                        Ver detalles <ChevronRight className="w-4 h-4" />
-                      </span>
+                      <button 
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setActiveTab('candidatas');
+                        }}
+                        className="inline-flex items-center gap-2 text-apple-accent font-bold text-xs hover:scale-105 transition-transform"
+                      >
+                        Ver Candidatas <ChevronRight className="w-4 h-4" />
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -399,7 +405,10 @@ export default function App() {
                       <p className="text-white/80 text-sm md:text-xl max-w-2xl mb-6 leading-relaxed line-clamp-3 md:line-clamp-none">
                         {contest.description}
                       </p>
-                      <button className="glass px-8 py-3 md:px-10 md:py-4 rounded-full font-bold hover:bg-white/20 transition-all text-sm md:text-base">
+                      <button 
+                        onClick={() => setActiveTab('candidatas')}
+                        className="glass px-8 py-3 md:px-10 md:py-4 rounded-full font-bold hover:bg-white/20 transition-all text-sm md:text-base"
+                      >
                         Ver Candidatas
                       </button>
                     </div>
