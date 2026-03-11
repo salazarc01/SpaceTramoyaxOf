@@ -100,7 +100,15 @@ export default function App() {
       name: 'Andrea Aguilera', 
       flag: '🇪🇨', 
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMkEHyd7WAcRYPLolZ3zp_QnkSBmTKrgF9Fg&s',
-      gradient: 'from-[#FFDD00]/80 via-[#034EA2]/40 to-transparent'
+      gradient: 'from-[#ED1C24]/90 via-[#0038A8]/60 to-[#FFCC00]/30'
+    },
+    { 
+      id: '8', 
+      country: 'VENEZUELA', 
+      name: 'Stefany Gutierrez', 
+      flag: '🇻🇪', 
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI5z8ninFfGfRHfuLslip0zmi1S23Ik71-mA&s',
+      gradient: 'from-[#ED1C24]/90 via-[#0038A8]/60 to-[#FFCC00]/30'
     },
   ].sort((a, b) => a.country.localeCompare(b.country));
 
